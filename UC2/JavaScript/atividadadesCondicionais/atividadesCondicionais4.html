@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = parseInt(prompt("Digite o valor de A:"));
+        let b = parseInt(prompt("Digite o valor de B:"));
+        let c = parseInt(prompt("Digite o valor de C:"));
+        if (a >= b && a >= c) {
+            if (b >= c) {
+                alert(a + ", " + b + ", " + c);
+            } else {
+                alert(a + ", " + c + ", " + b);
+            }
+        } else if (b >= a && b >= c) {
+            if (a >= c) {
+                alert(b + ", " + a + ", " + c);
+            } else {
+                alert(b + ", " + c + ", " + a);
+            }
+        } else {
+            if (a >= b) {
+                alert(c + ", " + a + ", " + b);
+            } else {
+                alert(c + ", " + b + ", " + a);
+            }
+        }
+
+    </script>
+</body>
+
+</html>
