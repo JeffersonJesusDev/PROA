@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <h1>2- Escreva um programa em Javascript, que leia 
+         um número e informe se ele é divisível por 10, por 5 ou por 2 ou se não é divisível por nenhum deles.</h1>
+
+    <script>
+        let numero = parseInt(prompt())
+
+        if(numero % 10 == 0 || numero % 5 == 0 || numero % 2 == 0){
+            document.write("é divisível por " + numero)
+        } else {
+            document.write("Este número não é divisível")
+        }
+        
+    </script>
+</body>
+</html>

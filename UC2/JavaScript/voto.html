@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto elitoral</title>
+</head>
+<body>
+    <h1>Verifique se você pode votar</h1>
+
+    <script>
+        let votoIdade = prompt("Informe a sua idade: ")
+
+        if(votoIdade < 16){
+            document.write("<br>Não pode votar ainda!")
+        } else if(votoIdade >= 16 && votoIdade < 18){
+            document.write("<br>Seu voto é opcional!")
+        } else if(votoIdade >= 18 && votoIdade <=69){
+            document.write("<br>Seu voto é obrigatório!!!")
+        } else {
+            document.write("<br>Seu voto não é obrigatório e não é necessário justificar ausência!")
+        }
+    </script>
+</body>
+</html>

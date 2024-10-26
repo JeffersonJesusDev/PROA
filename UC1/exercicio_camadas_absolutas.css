@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+}
+
+#camada1{
+    position: absolute;
+    background-color: blue;
+    top: 10px;
+    left: 50px;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+#camada2{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    top: 10px;
+    left: 220px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    z-index: 1;
+}
+
+#camada3{
+    position: absolute;
+    background-color: rgb(30, 255, 0);
+    top: 110px;
+    left: 50px;
+    width: 670px;
+    height: 45px;
+    text-align: center;
+    z-index: 1;
+}
+
+#camada4{
+    position: absolute;
+    background-color: rgb(255, 238, 0);
+    top: 155px;
+    left: 50px;
+    width: 650px;
+    height: 500px;
+    border: 10px solid rgb(255, 0, 0);
+    text-align: center;
+    z-index: 1;
+}
+
+#camada5{
+    position: absolute;
+    background-color: rgb(51, 51, 65);
+    top: 675px;
+    left: 50px;
+    width: 670px;
+    height: 45px;
+    text-align: center;
+    z-index: 1;
+}

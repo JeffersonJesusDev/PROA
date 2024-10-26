@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(imagens/guitarra_fundo_body.jpg);
+  background-size: cover;
+}
+
+main {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto;
+}
+
+main>* {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+.limao {
+  display: flex;
+  width: 100%;
+  background-image: url(imagens/guitarras_header.jpg);
+  background-size: cover;
+  height: 150px;
+}
+
+#container{
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: end;
+  justify-content: flex-end;
+  height: 130px;
+}
+
+#navHeader {
+  display: flex;
+  width: 50%;
+  margin-right: 40px;
+  height: 30px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+#navHeader a {
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.vermelha img{
+  width: 100%;
+  height: 100%;
+}
+
+.vermelha {
+  position: relative;
+  background-color: red;
+  height: 300px;
+}
+
+.rosa p,h1{
+  padding: 10px;
+  margin: auto;
+}
+
+.rosa {
+  position: relative;
+  float: left;
+  width: 45%;
+  height: 240px;
+  background-color: pink;
+  margin-left: 3%;
+  margin-top: 20px;
+}
+
+.azul-claro {
+  display: flex;
+  height: 300px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.branco img {
+  width: 80%;
+}
+
+.branco {
+  width: 20%;
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  height: 85%;
+}
+
+
+.branco R1{
+  color: red;
+}
+
+.laranja {
+  position: relative;
+  background-color: rgb(206, 96, 22);
+  height: 280px;
+}
+
+.caixa-dentro-laranja iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.caixa-dentro-laranja {
+  position: relative;
+  float: left;
+  width: 45%;
+  height: 240px;
+  background-color: pink;
+  margin-left: 3%;
+  margin-top: 20px;
+}
+
+.amarelo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 280px;
+}
+
+
+.azul-escuro{
+  display:flex;
+  align-items: baseline;
+  height: 10;
+}
+
+.azul-escuro form{
+  text-align: left;
+  align-items: baseline;
+}
+
+.azul-escuro textarea{
+  width: 60%;
+  height: 100px;
+}
+
+#azul{
+  align-items: baseline;
+}
+
+input{
+  width: 100%;
+  border-radius: 2px;
+}
+
+.caixa-de-baixo {
+  position: relative;
+  width: 46%;
+  text-align: center;
+  height: auto;
+  margin: 2%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.verde{
+  align-items: center;
+  margin-top: 5%;
+  font-size: 15px;
+  color: blue;
+}
+
+.verde img{
+  width: 12%;
+  height: 10%;
+}
+
+.preto {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 150px;
+  margin-bottom: 0px;
+}
+
+.preto img {
+  text-align: center;
+  width: 2%;
+
+  height:auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  main{
+    width: 100%;
+  }
+
+  .limao{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+  }
+
+  #navHeader{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-wrap: wrap;
+  }
+
+
+  #navHeader a{
+    justify-content: center;
+    padding: 0%;
+  }
+
+  section.vermelha{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 540px;
+  }
+
+  section.vermelha div{
+    width: 90%;
+  }
+
+  .azul-claro{
+  padding: 1%;
+  gap: 10px;
+  display: flex;
+  height: auto;
+  background-color: aqua;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+
+  .branco {
+    width: 45%;
+  }
+
+  .branco img{
+    width: 80%
+  }
+  
+  .laranja{
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    
+  }
+
+  .laranja div{
+    width: 95%;
+  }
+
+  .amarelo{
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+  }
+
+  .amarelo div{
+    width: 95%;
+
+  }
+  .caixa-de-baixo{
+    height: 200px;
+  }
+
+  .verde .caixa-de-baixo{
+    height: 50px;
+  }
+
+}

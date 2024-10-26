@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    background-color: #eef;
+    border: 2px solid red;
+    max-width: 300px;
+    padding: 15px;
+    height: 300px;
+    /* alinhamento horizontal */
+    justify-content: space-between ;
+    /* alinhamento vertical */
+    align-items: center;
+    /* alinhar para os elementos vá para linha debaixo */
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: #ccc;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}

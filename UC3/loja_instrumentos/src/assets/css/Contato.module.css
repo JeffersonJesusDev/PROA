@@ -1,0 +1,104 @@
+.contato{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+
+  }
+
+  .inputNome {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+  }
+
+  .inputEmail {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+  }
+  .redesSociais {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .icone {
+    font-size: 30px;
+    color: #000; 
+    transition: color 0.3s;
+  }
+
+  .icone:hover {
+    color: #007bff; 
+  }
+
+  .redesSociais {
+    display: flex;
+    gap: 10px; 
+  }
+
+  .iconeRedeSocial {
+    width: 30px; 
+    height: 30px; 
+    transition: transform 0.3s; 
+  }
+  .quadrado {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .dentro4 {
+    margin: 0 auto;
+  }
+
+  .redesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .iconeRedeSocial {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contato .dentro4{
+    padding-top: 70px;
+}
+
+.contato .dentro4 h2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.textareaMensagem{
+    width: 90%;
+    height: 200px;
+}
+
+.contato .dentro4 img{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}

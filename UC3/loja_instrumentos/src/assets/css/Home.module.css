@@ -1,0 +1,18 @@
+.home{
+    width: 90%;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+img{
+    width: 617px;
+    height: 400px;
+}
+
+.dentro{
+    padding: 20px;
+}

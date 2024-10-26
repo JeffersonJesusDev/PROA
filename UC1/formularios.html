@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form" id="form">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label>Entre com o seu nome:</label>
+            <input type="text" name="nome" maxlength="50" size="50"
+            required placeholder="Digite seu nome">
+            <br/><br />
+
+            <label>Entre com o seu e-mail:</label>
+            <input type="email" name="email" maxlength="50" size="50"
+            required placeholder="Digite seu email">
+            <br/><br />
+
+            <label>Entre com o sua senha:</label>
+            <input type="password" name="name" maxlength="10" size="10"
+            />
+            <br/><br />
+
+            <label> Você utiliza o site frequentemente?</label>
+            <input type="radio" name="resp" value="sim">Sim 
+            <input type="radio" name="resp" value="nao">Nao 
+            <input type="radio" name="resp" value="talvez">Talvez
+            <br/><br />
+
+            <label>Qual navegador vocÊ costuma utilizar?</label>
+            <input type="checkbox" name="opcao" value="fire">FireFox
+            <input type="checkbox" name="opcao2" value="fire">Chrome
+            <input type="checkbox" name="opcao3" value="fire">Edge
+            <input type="checkbox" name="opcao4" value="fire">Safari
+            <input type="checkbox" name="opcao5" value="fire">Opera
+            <br><br>
+
+            <label>Selecione uma area de atuacao:</label>
+                <select name="opcao">
+                    <option >Marketing</option>
+                    <option >Comercial</option>
+                    <option >Vendas</option>
+                    <option >Web</option>
+                    <option >Administracao</option>
+                </select>
+            <br><br>
+
+            <label>Entre com um numero:</label>
+            <input type="number" min="0" max="8"> 
+            <br><br>
+
+            <label>Selecione uma data</label>
+            <br><br>
+            <input type="date">
+            <br><br>
+
+            <input type="search" url="#">
+            <br><br>
+            <label>Escolha a sua cor</label>
+            <input type="color">
+            <br><br>
+
+            <progress value="50" max="100">50%</progress>
+            <br><br>
+            <meter min="0" max="100" low="40" high="90" value="100"></meter>
+            <br><br>
+
+            <label>Deixe aqui seu comentário</label>
+            <br>
+            <textarea placeholder="comente aqui:" width="10" height="40"></textarea>
+            <br><br>
+
+
+
+            
+            <input type="submit" value="enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,174 @@
+div{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: solid 1px #333;
+}
+img{
+    width: 80%;
+    border: solid 1px #333;
+    padding: 10px;
+}
+
+
+/*FOTO - GIRA A IMG 50º SENTIDO HORÁRIO: */
+#foto img{
+    /* /pra voltar do giro/ */
+    transform: rotate(0deg); 
+    /* /volta devagar/ */
+    transition: 2s all; 
+}
+#foto img:hover{
+    /* /gira sentido horario até os 50º/ */
+    transform: rotate(50deg); 
+    /* /gira devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO1 - AUMENTA A IMAGEM MENOR: */
+#foto1 img{
+    transform: rotateX(50deg); /*deixo a imagem menor */
+    /* /volta devagar/ */
+    transition: 2s all;
+}
+
+#foto1 img:hover{
+    /* /pra voltar do giro pra ficar padrão/ */
+    transform: rotateX(0deg); 
+    /* /gira devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO2 - ESPELHADO: */
+#foto2 img{
+    /* /volta mais rápido pro padrão/ */
+    transition-duration: 1s; 
+}
+
+#foto2 img:hover{
+    /* /pra fazer girar 180º/ */
+    transform: rotateY(180deg);
+    /* /gira devagar/  */
+    transition: 2s all; 
+}
+
+
+/*FOTO3 - VEM PRA DIREITA EM BAIXO: */
+#foto3 img{
+    /* /volta mais rápido pro padrão/ */
+    transition-duration: 1s; 
+}
+
+#foto3 img:hover{
+    /* /sai da tela 100px(X) e 50px(Y)/ */
+    transform: translate(100px, 50px);
+    /* /faz devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO4 - VAI PRA DIREITA: */
+#foto4 img{
+    /* /volta mais rápido pro padrão/ */
+    transition-duration: 1s; 
+}
+
+#foto4 img:hover{
+    /* /sai da tela 200px para a direita/ */
+    transform: translateX(200px); 
+    /* /faz devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO5 - CAMBALHOTA: */
+#foto5 img{
+    /* /volta ainda mais rápido pro padrão/ */
+    transition-duration: 0.5; 
+}
+
+#foto5 img:hover{
+    /* /sai da tela 100px(X) e 50px(Y) enquanto ainda gira/ */
+    transform: translate(100px, 50px) rotate(180deg); 
+    /* /faz devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO6 - DIMINUI A IMAGEM: */
+#foto6 img{
+    /* /volta ainda mais rápido pro padrão/ */
+    transition-duration: 0.5; 
+}
+
+#foto6 img:hover{
+    /* /quando scale < 1 = diminui a imagem./ */
+    transform: scale(0.5); 
+    /* /faz devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO7 - AUMENTA A IMAGEM: */
+#foto7 img{
+    /* /volta ainda mais rápido pro padrão/ */
+    transition-duration: 0.5; 
+}
+
+#foto7 img:hover{
+    /* /quando scale > 1 = aumenta a imagem./ */
+    transform: scale(1.5); 
+    /* /faz devagar/ */
+    transition: 2s all; 
+}
+
+
+/*FOTO8 - AQUI VIROU BAGUNÇA: */
+#foto8 img{
+    /* /volta ainda mais rápido pro padrão/ */
+    transition-duration: 0.5; 
+}
+
+#foto8 img:hover{
+    /* /faz devagar/ */
+    transition: all 1s ease-out; 
+    -webkit-transform: scale(1.8) translate(20px, 50px) rotate(360deg);
+}
+
+.efeito_texto{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 50px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color:#f00;
+    -webkit-text-stroke-width: 2px;
+    clear: left;
+}
+
+#box{
+    width: 500px;
+    height: 400px;
+    border: 1px solid;
+    background-color: #df9;
+    box-shadow: -10px -10px 20px #090;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sombra_texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px;
+}
+
+.colunas{
+    font-family: verdana;
+    font-weight: bold;
+    -webkit-colmun-count:3;
+    -webkit-column-rule:1px solid #666;
+    -webkit-column-gap:1em;
+    text-align: justify;
+}

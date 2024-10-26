@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudando Body atividade</title>
+    <style>
+        body{
+            color: #440404;
+            text-align: center;
+        }
+
+        .myImage{
+            width: 500px;
+            height: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body class="fundo">
+
+    <h1 id="titulo">Testando mudança de cor fundo Body, a cor da fonte e a imagem na página</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ea officia officiis eligendi? Aperiam velit voluptates excepturi repudiandae a non molestiae vero tenetur! Suscipit accusantium molestias aspernatur veniam earum ipsam?</p>
+
+    <input type="button" id="modoescuro" value="modo escuro" onclick="modoescuro()">
+    <input type="button" id="mododaltonico" value="modo daltonico" onclick="mododaltonico()">
+    <input type="button" id="modonormal" value="modo normal" onclick="modonormal()">
+    <input type="button" id="modovisao" value="modo visao" onclick="modovisao()">
+
+    <hr>
+
+    <img class="myImage" src="../../imagens/396678-wallpaper-jujutsu-kaisen-satoru-gojo-4k-hd.jpg" alt="">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ea impedit velit libero culpa dolore amet laborum aliquam debitis error, non odio nemo harum, possimus cupiditate, quam dolorem veritatis. Fugiat?</p>
+    
+
+    <script>
+
+        let header = document.getElementById("titulo");
+
+        function modoescuro(){
+            document.querySelector(".fundo").style.backgroundColor="black"
+            document.querySelector(".fundo").style.color="white"
+            document.querySelector(".myImage").src="../../imagens/ryomen_sukuna_wallpaper__jujutsu_kaisen__by_anitoonwallpaper_dgvx69o-fullview.jpg"
+            document.querySelector(".fundo").style.fontSize="15px";
+            header.innerHTML="Testando o modo escuro";
+        }
+
+        function mododaltonico(){
+            document.querySelector(".fundo").style.backgroundColor="purple"
+            document.querySelector(".fundo").style.color="green"
+            document.querySelector(".fundo").style.fontSize="15px";
+            header.innerHTML="Testando o modo daltonico";
+        }
+        
+        function modonormal(){
+            document.querySelector(".fundo").style.backgroundColor="white"
+            document.querySelector(".fundo").style.color="#440404"
+            document.querySelector(".fundo").src="../../imagens/396678-wallpaper-jujutsu-kaisen-satoru-gojo-4k-hd.jpg"
+            document.querySelector(".fundo").style.fontSize="15px";
+            header.innerHTML="Testando o modo normal";
+        }
+
+        function modovisao(){
+            document.querySelector(".fundo").style.fontSize="30px";
+            document.querySelector(".fundo").style.color="#440404"
+            document.querySelector(".fundo").style.backgroundColor="white"
+            header.innerHTML="Testando o modo baixa visão";
+        }
+
+    </script>
+</body>
+</html>

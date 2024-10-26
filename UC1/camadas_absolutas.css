@@ -1,0 +1,48 @@
+#camada1{
+    position: absolute; /* se descolou do browser é absoluta */
+    top: 100px; /* topo */
+    left: 100px; /* a esquerda */
+    width: 170px; /*largura */
+    height: 100px; /* altura  */
+    border: 5px solid #F00; /* borda */
+    text-align: center; /* alinhamento do texto 8*/
+    font-size: 12px; /* tamanho da fonte */
+    padding: 10px; /* espaço de dentro da área */
+    background-color: blanchedalmond;
+    background-size: cover; /* cover é cobrir */
+    z-index: 1;
+}
+
+#camada2{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: chartreuse;
+    border: 3px dashed #060;
+    width: 170px; /*largura */
+    height: 100px; /* altura  */
+    font-size: 12px;
+    padding: 10px;
+    z-index: 2;
+}
+
+#camada3{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 3px dashed #060;
+    width: 170px; /*largura */
+    height: 100px; /* altura  */
+    font-size: 12px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+#camada4{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    z-index: 4;
+}

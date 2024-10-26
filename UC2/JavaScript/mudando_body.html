@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando troca de conteúdo no JavaScript</title>
+
+    <style>
+        body{
+            background-color: bisque;
+            color: rgb(68, 4, 4);
+            text-align: center;
+        }
+
+        .myImage{
+            width: 500px;
+            height: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body class="fundo">
+    
+    <h1>Testando mudança de cor de fundo Body, a cor da fonte e a imagem na página</h1>
+
+    <input type="button" id="verde" value="cor verde" onclick="verde()"/>
+    <input type="button" id="azul" value="cor azul" onclick="azul()"/>
+    <input type="button" id="original" value="original" onclick="original()">
+
+    <hr />
+
+    <img class="myImage" src="../../imagens/ryomen_sukuna_wallpaper__jujutsu_kaisen__by_anitoonwallpaper_dgvx69o-fullview.jpg" alt="">
+
+    <script>
+        function verde(){
+            document.querySelector(".fundo").style.backgroundColor="green";
+            document.querySelector(".fundo").style.color="white";
+            document.querySelector(".myImage").src="../../imagens/ryomen_sukuna_wallpaper__jujutsu_kaisen__by_anitoonwallpaper_dgvx69o-fullview.jpg"
+        }
+
+        function azul(){
+            document.querySelector(".fundo").style.backgroundColor="blue";
+            document.querySelector(".fundo").style.color="yellow";
+            document.querySelector(".myImage").src="../../imagens/396678-wallpaper-jujutsu-kaisen-satoru-gojo-4k-hd.jpg"
+        }
+
+        function original(){
+            document.querySelector(".fundo").style.backgroundColor="bisque"
+            document.querySelector(".fundo").style.color="black";
+            document.querySelector(".myImage").src="../../imagens/ryomen_sukuna_wallpaper__jujutsu_kaisen__by_anitoonwallpaper_dgvx69o-fullview.jpg"
+
+        }
+    </script>
+</body>
+</html>

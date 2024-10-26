@@ -1,0 +1,84 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: blue;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(194, 248, 0);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#le{
+    width: 25%;
+    height: 450px;
+    background-color: aqua;
+    float: left;
+}
+
+#ld{
+    width: 75%;
+    height: 450px;
+    background-color: blueviolet;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(58, 3, 33);
+    color: white;
+    clear: left;
+}
+
+.caixa_branca{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+article{
+    position: relative;
+    width: 95%;
+    height: 430px;
+    background-color: white;
+    margin: auto;
+}
+
+h2{
+    background-color: aqua;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: darksalmon;
+}
+
+div{
+    width: 100%;
+    margin-top: 10px;
+    height: 200px;
+    background-color: rgb(203, 203, 241);
+}
