@@ -1,5 +1,11 @@
 public class NavegarPelaInternet {
 
+    String site;
+
+    public NavegarPelaInternet(String site) {
+        this.site = site;
+    }
+
     public void exibirPagina(String url) {
         System.out.println("Exibindo página da web: " + url);
     }

@@ -1,27 +1,18 @@
 public class SamsungA21S {
     public static void main(String[] args) {
 
-        ReprodutorMusical reprodutor = new ReprodutorMusical();
-        AparelhoTelefonico telefone = new AparelhoTelefonico();
-        NavegarPelaInternet navegar = new NavegarPelaInternet();
+        ReprodutorMusical reprodutorMusical = new ReprodutorMusical("Ed, Sheran");
+        NavegarPelaInternet navegarPelaInternet = new NavegarPelaInternet("www.proa.com.br");
 
-        reprodutor.selecionarMusica("Musica Ed Sheroon");
+        String musica = reprodutorMusical.musica;
+        reprodutorMusical.selecionarMusica(musica);
+        System.out.println(reprodutorMusical.musica);
+        reprodutorMusical.tocar();
 
-        reprodutor.tocar();
+        String site = navegarPelaInternet.site;
+        System.out.println(site);
 
-        reprodutor.pausarMusica();
 
-        telefone.ligar(1231231231);
-
-        telefone.atender();
-
-        telefone.IniciarCorreioVoz();
-
-        navegar.exibirPagina("www.proa.com.br");
-
-        navegar.adicionarNovaAba();
-
-        navegar.atualizarPagina();
     }
 
 }
